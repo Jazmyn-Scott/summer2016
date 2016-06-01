@@ -15,7 +15,7 @@
     </style>
 
     <h1>Diagnosis Database</h1>
-
+    <h3> Basic Patient Information</h3>
     <form>
  
         Patient First name: <br>
@@ -28,6 +28,11 @@
         <input type="text" name="lastname">
           <br>
  
+ 		Age: <br>
+
+ 		<input type="text" name="age">
+ 		<br>
+
        Gender: <br>
  
          <input type="radio" name="gender" value="male" checked> Male<br>
@@ -37,11 +42,20 @@
          <input type="radio" name="gender" value="other"> Other
             <br>
 
-         Symptoms:<br>
+       Symptoms:<br>
   
-         <input type="text" name="symptom">
-           <br><br>
-  
+         <input type="checkbox" name="symptom">Itching/Rash
+           <br>
+
+         <input type="checkbox" name="symptom">Burning Sensation
+         <br>
+
+         <input type="checkbox" name="symptom">Pain <br>
+         
+         Where?<input type="text" name="pain"><br>
+         Scale 1 to 10 (1 is minimal) <input type="text" name="pain">
+         <br>
+		   
          <input type="submit" value="Submit">
 
      </form> 
