@@ -1,0 +1,23 @@
+<html ng-app="app1" ng-init= "person = {fName: 'Jazmyn', lName: 'Scott'}; capitals[{city: 'Montgomery', state: 'Alabama'}, {city:'Phoenix', state:'Arizona'}, {city:'Juneau', state:'Alaska'}]">
+  <head>
+    <title>AngularJS trial</title>
+  </head>
+  <body>
+  	<div ng-controller="ctrl1">
+  	<span>Values:</span>
+  	<input type="text" ng-model="first">
+  	<input type="text" ng-model="second">
+  	<button ng-click = "updateValue()">Sum</button>
+  	<br><br>
+  	
+  	{{calculation}}
+
+  	<script src="ajs-trial.html"></script>
+  	<script src= "javascript-ajs.html"></script>
+
+
+
+  	</div>
+  
+  </body>
+</html>
