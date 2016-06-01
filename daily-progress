@@ -7,7 +7,6 @@
  <h2> Day 1</h2>
  <p> Today is the first day of my project. I did not get much done today because I had many computer problems. Other than that, I learned a new program (git and github) and used it to create a basic webpage describing my intentions for my sumer project. When adding to my project I tried to add an href and realized that I could not because it is not local. After using it I could not push or pull work on github. However I fixed the issue.</p>
  <h2>Day 2</h2>
- <ul>
- <li> created new file in summer2016 for daiy progress</li>
+ <p> Today I officially started on my project. I created the page with a little bit of patient information and a few symptoms to get started.
 </body>
 </html>
