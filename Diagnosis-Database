@@ -1,25 +1,49 @@
 <html>
-<head>
-<title>Diagnosis Database</title>
-</head>
-<body>
-<form action= "action_page.php">
-  Patient First name: <br>
-   <input type="text" name="firstname">
-  <br>
-  Patient name:<br>
-   <input type="text" name="lastname">
-  <br>
-  Gender: <br>
-  <input type="radio" name="gender" value="male" checked> Male<br>
-   <input type="radio" name="gender" value="female"> Female<br>
-  <input type="radio" name="gender" value="other"> Other
- Symptoms:<br>
-  <input type="text" name="Burning">
 
-  <input type="submit" value="Submit">
-</form> 
+  <head>
 
+	<title>Diagnosis Database</title>
 
-</body
+  </head>
+
+  <body>
+
+	<style>
+	  h1{
+		  text-align: center;
+	    }
+    </style>
+
+    <h1>Diagnosis Database</h1>
+
+    <form>
+ 
+        Patient First name: <br>
+ 
+        <input type="text" name="firstname">
+           <br>
+ 
+        Patient Lastname name:<br>
+ 
+        <input type="text" name="lastname">
+          <br>
+ 
+       Gender: <br>
+ 
+         <input type="radio" name="gender" value="male" checked> Male<br>
+ 
+         <input type="radio" name="gender" value="female"> Female<br>
+ 
+         <input type="radio" name="gender" value="other"> Other
+            <br>
+
+         Symptoms:<br>
+  
+         <input type="text" name="symptom">
+           <br><br>
+  
+         <input type="submit" value="Submit">
+
+     </form> 
+  </body
 </html>
