@@ -9,10 +9,17 @@
   <br>
   Last name:<br>
    <input type="text" name="lastname">
-  <br><br>
+  <br>
+  Gender: <br>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+   <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+ Symptoms:<br>
+  <input type="text" name="Burning">
+
   <input type="submit" value="Submit">
 </form> 
 
-<p>If you click the "Submit" button, the form-data will be sent to a page called "action_page.php".</p>
+
 </body
 </html>
