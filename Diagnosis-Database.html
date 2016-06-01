@@ -19,7 +19,7 @@
 
     <h1>Diagnosis Database</h1>
     <h3> Basic Patient Information</h3>
-    <form>
+    <form action="demo_form.asp">
  
         Patient First Name: <br>
  
@@ -31,7 +31,11 @@
         <input type="text" name="lastname">
           <br>
  
- 		Age: <br>
+ 		DOB MM/DD/YYYY:<br>
+
+    <input type="text" name="dob"><br>
+
+    Age: <br>
 
  		<input type="text" name="age">
  		<br>
@@ -66,7 +70,9 @@
 
          <input type="checkbox" name="symptom"> Dizziness<br>
 
-         Other <input type="text" name="symptom">Diarrhea<br>
+         <input type="checkbox" name="symptom">Diarrhea<br>
+
+         other<input type="text" name="symptom"><br>
 
          <input type="submit" value="Submit">
 
