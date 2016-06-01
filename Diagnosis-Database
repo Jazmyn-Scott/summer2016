@@ -4,10 +4,10 @@
 </head>
 <body>
 <form action= "action_page.php">
-  First name: <br>
+  Patient First name: <br>
    <input type="text" name="firstname">
   <br>
-  Last name:<br>
+  Patient name:<br>
    <input type="text" name="lastname">
   <br>
   Gender: <br>
