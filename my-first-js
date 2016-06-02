@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title> My First JS Example</title>
+  </head>
+  <body>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    
+    <div ng-app="">
+      <p>Examples for Days</p>
+      <p>Expressions: {{ 20*2 }}</p>
+    </div>
+  </body>
+</html>
