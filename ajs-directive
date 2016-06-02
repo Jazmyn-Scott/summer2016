@@ -1,6 +1,14 @@
 <html>
-<script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 <body>
 
-  <div ng-app ="" ng-init = "firstname" = "Jazmyn"
-</body></html>
+  <div ng-app ="" ng-init = "firstName = 'Jazmyn'">
+  
+  <p> write something in the input box</p>
+  <p> Name: <input type="text" ng-model="firstName"></p>
+  <p>You wrote: {{ firstname }}</p>
+
+  </div>
+
+</body>
+</html>
