@@ -1,0 +1,18 @@
+
+<! DOCTYPE html>
+<html>
+	<script src="http://ajax.gooleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+	<body>
+		<div ng-app="newApp" ng-controller="ctrl">
+			What is your favorite fruit <input ng-model="fruit">
+			<p>you have entered: {{fruit}} </p>
+		</div>
+
+		<script> 
+			var app1= anugular.module('newApp', []);
+			app1.controller('ctrl', function($scope){
+			$scope.fruit="Apple"
+
+			});
+	</body>
